@@ -1,0 +1,138 @@
+.container_p {
+    position: initial;
+    margin-top: 0vmin;
+    margin-bottom: 0vmin;
+    margin-left: 0vmin;
+    margin-right: 0vmin;
+}
+
+.img_p {
+    width: 100%;
+    border-radius: 4px;
+    height: 60%;
+}
+
+.small_laterale_dx {
+    background: #e9ecef;
+    border: 1px solid rgb(204, 206, 209);
+    border-radius: 4px;
+    width: 33.2%;
+    line-height: initial;
+    font-size: 30px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 1%;
+    text-align: right;
+    transition-duration: 0.4s;
+    transition-property: all;
+}
+
+.small_laterale_sx {
+    background: #e9ecef;
+    border: 1px solid rgb(204, 206, 209);
+    border-radius: 4px;
+    width: 33.2%;
+    line-height: initial;
+    font-size: 30px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-right: 1%;
+    text-align: left;
+    transition-duration: 0.4s;
+    transition-property: all;
+}
+
+.small_centrale {
+    background: #e9ecef;
+    border: 1px solid rgb(204, 206, 209);
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+    line-height: initial;
+    font-size: 30px;
+    border-radius: 4px;
+    padding: 5px;
+    transition-duration: 0.4s;
+    transition-property: all;
+}
+
+.small:hover {
+    background-color: rgb(52, 58, 64);
+}
+
+.bar{
+    padding: 1%;
+    transition-duration: 0.4s;
+    transition-property: all;
+    margin: 0;
+}
+
+.icon {
+    height: 35px;
+    transition: filter 0.4s;
+    width: 100%;
+}
+
+.icon_w {
+    height: 99%;
+    transition: all;
+    width: 28%;
+    float: left;
+    margin-right: 4%;
+}
+
+.bar:hover {
+    filter: invert(100%);
+}
+
+.my_a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.table_mer {
+    float: right;
+    width: 40% !important;
+    margin: 1% 0 0 2%;
+}
+
+.container_mer {
+    padding: 3%;
+}
+
+.button_info{
+    border: 1px solid rgb(204, 206, 209);
+    border-radius: 4px;
+    color: black;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 17%;
+    transition-duration: 0.4s;
+    width: 20%;
+}
+
+.button_p{
+    float: right;
+    padding-top: 3%;
+    width: 62%;
+}
+
+.button_info:hover {
+    background-color: rgb(204,198,192);
+    filter: invert(100%);
+}
+
+.button_div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+a:link{
+    display: block;
+    margin: 0%;
+    text-align: center;
+    float: right;
+}
